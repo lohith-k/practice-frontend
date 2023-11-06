@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <div class="logo">
+        <div class="heading">
+            ABC
+        </div>
+        <div class="subheading">Airline</div>
+    </div>
+    <div class="form">
+        <div class="passengerForm">
+            <h2>Passenger Registration</h2>
+    <div class="passengerField">
+        <label for="passengerId">Passenger Id</label>
+        <input type="text" id="passengerId" readonly />
+        </div>
+        <div class="passengerField">
+        <label for="passengerName"> Name</label>
+        <input type="text" id="passengerName" />
+        </div>
+        <div class="passengerField">
+        <label for="passengerEmail"> Email</label>
+        <input type="text" id="passengerEmail" />
+        </div>
+        <div class="passengerField">
+        <label for="passengerPassword"> Password</label>
+        <input type="text" id="passengerPassword" />
+        </div>
+        <div class="passengerField">
+        <label for="passengerAddress">Address</label>
+    <textarea id="passengerAddress" rows="3">
+
+    </textarea>   
+    </div>
+        <div class="passengerField">
+        <label for="passengerContact">Contact</label>
+        <input type="text" id="passengerContact" />
+        </div>
+        <button class="RegisterButton"  onCLick="onRegister()">Register</button>
+    </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
